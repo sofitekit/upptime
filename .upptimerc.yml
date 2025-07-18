@@ -7,6 +7,9 @@ sites:
     url: https://www.google.com
   - name: Proxmox Produzione
     url: https://pmx-master.sofitek.it
+    port: 80
+    check: "tcp-ping"
+    ipv6: true
   - name: Sofitek
     url: https://sofitek.it
   - name: Xenia Web Site
