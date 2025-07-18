@@ -18,12 +18,7 @@ sites:
   - name: Ceie PWR
     url: https://management.ceiepower.it
   - name: Arcese DPW
-    url: https://gespre.arcedpworld.com
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+    url: https://gespre.arcesedpworld.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
